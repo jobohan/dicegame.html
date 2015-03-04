@@ -53,7 +53,7 @@ $('.die.selectable').attr('data-roll', randomRoll);//mine
 function holdDie() {
     // TODO: toggle the class 'hold' for the die that was just clicked
     // HINT: It will start with $(this)
-$(die).toggleClass('hold');
+$(die).toggleClass(hold);
     $('.die').addClass('selectable');//mine
     // Leave this here to update the state after the die is held
     $('.game').trigger('update-game-state');
